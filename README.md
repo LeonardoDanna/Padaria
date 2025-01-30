@@ -74,3 +74,6 @@ Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo `L
 ---
 
 🔗 **Repositório:** [GitHub - Padaria](https://github.com/LeonardoDanna/Padaria)
+
+![Padaria](https://github.com/user-attachments/assets/1e4dada2-6644-4960-8312-e11599afb23c)
+
