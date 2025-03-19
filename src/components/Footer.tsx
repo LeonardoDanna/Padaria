@@ -3,7 +3,7 @@ import { Heart } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="text-center mt-16 mb-8 text-amber-700 animate-fade-in">
+    <footer className="text-center mt-16 text-amber-700 animate-fade-in bg-amber-50 py-8">
       <p className="text-lg mb-8">🌟 Feito com amor e os melhores ingredientes para tornar seu dia mais doce!</p>
       <div className="flex items-center justify-center gap-2 text-amber-600 hover:text-amber-800 transition-colors duration-300">
         <Heart className="w-4 h-4" aria-hidden="true" />
