@@ -101,6 +101,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+![image](https://github.com/user-attachments/assets/4bd80e7d-0e93-4d32-ad47-a424ce468389)
+![image](https://github.com/user-attachments/assets/5b19e809-cbb9-448b-a52c-63bb20407143)
+
 
 Desenvolvido com ❤️ por [Leonardo Danna](https://www.linkedin.com/in/leonardo-danna/)
 
