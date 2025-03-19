@@ -96,13 +96,10 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 4. Push para a branch
 5. Abrir um Pull Request
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
-![image](https://github.com/user-attachments/assets/4bd80e7d-0e93-4d32-ad47-a424ce468389)
-![image](https://github.com/user-attachments/assets/5b19e809-cbb9-448b-a52c-63bb20407143)
+![screencapture-localhost-5173-2025-03-19-15_14_28](https://github.com/user-attachments/assets/d73bdc26-9b83-49ed-8e5f-356c0f835994)
+![screencapture-localhost-5173-2025-03-19-15_15_46](https://github.com/user-attachments/assets/3b0b1d15-2e2c-417b-873b-d76cddd71857)
+
 
 
 Desenvolvido com ❤️ por [Leonardo Danna](https://www.linkedin.com/in/leonardo-danna/)
