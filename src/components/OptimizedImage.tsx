@@ -13,17 +13,19 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({ src, alt, className = '
   return (
     <div className={`relative ${className}`}>
       {isLoading && (
-        <div className="absolute inset-0 bg-gray-200 animate-pulse rounded-lg" />
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-100 via-amber-50 to-amber-100 animate-shimmer rounded-lg">
+          <div className="absolute inset-0 bg-white/50 animate-pulse rounded-lg" />
+        </div>
       )}
       {error ? (
-        <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-          <span className="text-gray-400">Failed to load image</span>
+        <div className="absolute inset-0 flex items-center justify-center bg-amber-50">
+          <span className="text-amber-500">Erro ao carregar imagem</span>
         </div>
       ) : (
         <img
           src={src}
           alt={alt}
-          className={`w-full h-full object-cover transition-opacity duration-300 ${
+          className={`w-full h-full object-cover transition-opacity duration-500 ${
             isLoading ? 'opacity-0' : 'opacity-100'
           }`}
           loading="lazy"

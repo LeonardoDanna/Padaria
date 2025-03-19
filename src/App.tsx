@@ -35,15 +35,20 @@ const App = () => {
         </div>
 
         <div className="space-y-12">
-          {menuData.map((section, index) => (
-            <Suspense key={section.title} fallback={<LoadingSpinner />}>
-              <MenuSection
-                title={section.title}
-                items={filterItems(section.items, searchQuery)}
-                searchQuery={searchQuery}
-              />
-            </Suspense>
-          ))}
+          {menuData.map((section, index) => {
+            const filteredItems = filterItems(section.items, searchQuery);
+            if (filteredItems.length === 0) return null;
+            
+            return (
+              <Suspense key={section.title} fallback={<LoadingSpinner />}>
+                <MenuSection
+                  title={section.title}
+                  items={filteredItems}
+                  searchQuery={searchQuery}
+                />
+              </Suspense>
+            );
+          })}
 
           <Suspense fallback={<LoadingSpinner />}>
             <SpecialsSection />

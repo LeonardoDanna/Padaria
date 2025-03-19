@@ -29,7 +29,7 @@ const MenuSection: React.FC<MenuSectionProps> = ({ title, items, searchQuery }) 
         {items.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-all duration-300 animate-fade-in"
+            className="bg-white rounded-xl shadow-md overflow-hidden group hover:shadow-lg transition-all duration-300 animate-fade-in hover:-translate-y-1"
             style={{ animationDelay: `${index * 100}ms` }}
           >
             <div className="relative h-48">
@@ -41,10 +41,10 @@ const MenuSection: React.FC<MenuSectionProps> = ({ title, items, searchQuery }) 
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start">
-                <h3 className="text-xl font-semibold text-amber-900">{item.title}</h3>
-                <span className="text-lg font-bold text-amber-600">{item.price}</span>
+                <h3 className="text-xl font-semibold text-amber-900 group-hover:text-amber-700 transition-colors duration-300">{item.title}</h3>
+                <span className="text-lg font-bold text-amber-600 group-hover:text-amber-500 transition-colors duration-300">{item.price}</span>
               </div>
-              <p className="text-gray-600 mt-2">{item.description}</p>
+              <p className="text-gray-600 mt-2 group-hover:text-gray-700 transition-colors duration-300">{item.description}</p>
             </div>
           </div>
         ))}
