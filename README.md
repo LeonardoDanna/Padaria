@@ -1,4 +1,4 @@
-# Abelha Gulosa 🍯
+# Padaria 🍯
 
 Uma experiência doce e deliciosa para os amantes de pães, bolos e cafés especiais.
 
